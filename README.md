@@ -129,11 +129,13 @@ For franchise categories, the name of a franchise (as well as any joining [Minor
 
 A category name _must_ begin with an underscore (`_`), to rank higher alphabetically.
 
-- _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `Season.1[2002]`
+- A category name may begin with an underscore and a bang (`_!`), to rank before any other category.
 
 Shortcuts to other files or folders in the same drive may be included.
 
 Categories can be nested, but this is not recommended.
+
+- _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `Season.1[2002]`
 
 # Episode Code
 

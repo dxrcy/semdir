@@ -148,18 +148,28 @@ Categories can be nested, but this is not recommended.
 
 Episode codes are unique numbers for an episode.
 
-_Must_ follow the format `SxxExx`, or `SxxExxx` if the total number of episodes in the season exceeds 99.
+_Must_ follow the format `SxxExx`, or `SxxExxx` if the number of episodes in the season exceeds 99.
+
+`Exx` or `Exxx` _should_ be used instead of `SxxExx` or `SxxExxx` respectively, if the series is not split into [seasons](#season-folders).
+
 Both the Season number and Episode number _must_ include leading zeros.
 
-- _Eg._ `01`, `13` for `SxxExx` format
-- _Eg._ `001`, `013` for `SxxExxx` format
+All files in a folder _must_ use the same type of episode code.
+
+| Code Type | Use                       | Code Length | _Example 1_ | _Example 2_ |
+| --------- | ------------------------- | ----------- | ----------- | ----------- |
+| `SxxExx`  | Default type              | 6           | `S01E02`    | `S12E13`    |
+| `SxxExxx` | If episodes > 99          | 7           | `S03E004`   | `S19E123`   |
+| `Exx`     | No seasons                | 3           | `E02`       | `E13`       |
+| `Exxx`    | No seasons, episodes > 99 | 4           | `E05`       | `E572`      |
 
 ## Pilot Episodes
 
 'Pilot' episodes _should_ be located:
 
-- In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-code): `S01E00`
-- Or in the `Season.0` (Pilot season) folder, with [Episode Codes](#episode-code): `S00E01`, `S00E02`, ect.
+- In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-code): `S01E00` (or `S01E000`)
+- Or in the `Season.0` (Pilot season) folder, with [Episode Codes](#episode-code): `S00E01`, `S00E02`, ect. (or `S00Exxx`)
+- Or in the [Series Folder](#series-folders) directly, with [Episode Code](#episode-code): `E00` (or `E000`)
 
 # Minor Words
 

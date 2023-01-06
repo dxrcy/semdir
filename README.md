@@ -76,7 +76,7 @@ File names for film:
    - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
      - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
      - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
-   - The number can be written in _Roman Numerals_, if necessary
+   - The number can be written in _Roman Numerals_, if necessary, however this is not recommended
      - _Eg._ `Star.Wars.IV.A.New.Hope[1977]`
 
 <!--TODO

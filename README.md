@@ -18,8 +18,9 @@ _Semname_ is a naming scheme that details how files and folders should be named,
   - [Pilot Episodes](#pilot-episodes)
 - [Minor Words](#minor-words)
   - [Initial Article](#initial-article)
-- [Meta Files](#meta-files)
-- [Temporary Files](#temporary-files)
+- [Other Folders](#other-folders)
+  - [Meta Files](#meta-files)
+  - [Temporary Files](#temporary-files)
 
 # File and Folder Types
 
@@ -65,12 +66,16 @@ File names for film:
 3. _Must_ include part or disc number, if relevant, after title and date, in curly braces (`{` and `}`)
    - This does **not** include films in a series or franchise, such as a sequel
    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
-4. _Must_ include the sequel or series number, if relevant, after the title <!-- TODO Change format -->
-   - The subtitle _should_ be included, if relevant, after the sequel of series number
+4. _Must_ include the series (sequel) number, if relevant, after the title <!-- TODO Change format -->
+   - The subtitle _should_ be included, if relevant, after the series number
+   - No punctuation should be included between the series number and subtitle
    - _Eg._ `Hunger.Games,the[2012]`
      - This is accepted if it is the only film of the series that is in the directory
    - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
-     - For two films in the series. Note that the `.1` is included in the first name
+     - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
+     - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
+   - The number can be written in _Roman Numerals_, if necessary
+     - _Eg._ `Star.Wars.IV.A.New.Hope[1977]`
 
 ## Series Folders
 
@@ -177,7 +182,9 @@ The article _must_ be appended, lowercase, to end of name, separated by comma, w
 
 A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`.
 
-# Meta Files
+# Other Folders
+
+## Meta Files
 
 _Meta files_ are files that relate to the root directories contents, but are not intended for user interaction.
 
@@ -186,11 +193,11 @@ These files _should_ be located in `~/.meta`, which may be hidden.
 - _Eg._ `~/.meta/tree.txt` contains a list of all files, in tree form.
 - _Eg._ `~/.meta/semname.md` is a duplicate of this file.
 
-# Temporary Files
+## Temporary Files
 
 _Temporary files_ are files or folders that are temporary. This includes current downloads, or redundant folders that will be removed.
 
-These files _should_ be located in `~/.temp`, if this is deemed easier.
+These files _should_ be located in `~/.temp`, which may be hidden.
 
 Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 

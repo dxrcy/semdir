@@ -1,10 +1,10 @@
-# Semantic Naming Scheme (semname)
+# Semantic Directory Naming Scheme (semdir)
 
-_Semname_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
+_SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
 # Contents
 
-- [Semantic Naming Scheme (semname)](#semantic-naming-scheme-semname)
+- [Semantic Directory Naming Scheme (semdir)](#semantic-directory-naming-scheme-semdir)
 - [Contents](#contents)
 - [File and Folder Types](#file-and-folder-types)
   - [All Files and Folders](#all-files-and-folders)
@@ -191,7 +191,7 @@ _Meta files_ are files that relate to the root directories contents, but are not
 These files _should_ be located in `~/.meta`, which may be hidden.
 
 - _Eg._ `~/.meta/tree.txt` contains a list of all files, in tree form.
-- _Eg._ `~/.meta/semname.md` is a duplicate of this file.
+- _Eg._ `~/.meta/semdir.md` is a duplicate of this file.
 
 ## Temporary Files
 
@@ -204,7 +204,7 @@ Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 - _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.
 
 <!--TODO
- - Change movie sequel format
+ - Change film series format
    - `Movie.Name[2].The.Sequel[2008]
    - `Movie.Name.-2-.The.Sequel[2008]
    - `Movie.Name-2-The.Sequel[2008]

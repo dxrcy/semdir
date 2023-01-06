@@ -181,7 +181,7 @@ A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`.
 
 _Meta files_ are files that relate to the root directories contents, but are not intended for user interaction.
 
-This files _should_ be located in the `~/.meta` folder, which may be hidden.
+These files _should_ be located in `~/.meta`, which may be hidden.
 
 - _Eg._ `~/.meta/tree.txt` contains a list of all files, in tree form.
 - _Eg._ `~/.meta/semname.md` is a duplicate of this file.
@@ -190,11 +190,11 @@ This files _should_ be located in the `~/.meta` folder, which may be hidden.
 
 _Temporary files_ are files or folders that are temporary. This includes current downloads, or redundant folders that will be removed.
 
+These files _should_ be located in `~/.temp`, if this is deemed easier.
+
 Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 
-- _Eg._ A folder named `{Hunger.Games,the[2012]}`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into the root directory when the download has finished, and the folder will be deleted.
-
-Temporary files may be moved into a `~/{temp}` folder in the root directory, if this is deemed easier.
+- _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.
 
 <!--TODO
  - Change movie sequel format

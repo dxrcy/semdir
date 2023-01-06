@@ -165,6 +165,8 @@ All files in a folder _must_ use the same type of episode code.
 
 ## Pilot Episodes
 
+<!-- TODO Reword this -->
+
 'Pilot' episodes _should_ be located:
 
 - In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-code): `S01E00` (or `S01E000`)

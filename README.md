@@ -79,6 +79,14 @@ File names for film:
    - The number can be written in _Roman Numerals_, if necessary
      - _Eg._ `Star.Wars.IV.A.New.Hope[1977]`
 
+<!--TODO
+ - Change film series format
+   - `Movie.Name[2].The.Sequel[2008]
+   - `Movie.Name.-2-.The.Sequel[2008]
+   - `Movie.Name-2-The.Sequel[2008]
+   - `Movie.Name.2-The.Sequel[2008]
+-->
+
 ## Series Folders
 
 Series folders should contain [Season Folders](#season-folders).
@@ -216,11 +224,3 @@ These files _should_ be located in `~/.temp`, which may be hidden.
 Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 
 - _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.
-
-<!--TODO
- - Change film series format
-   - `Movie.Name[2].The.Sequel[2008]
-   - `Movie.Name.-2-.The.Sequel[2008]
-   - `Movie.Name-2-The.Sequel[2008]
-   - `Movie.Name.2-The.Sequel[2008]
--->

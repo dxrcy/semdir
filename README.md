@@ -138,7 +138,7 @@ For franchise categories, the name of a franchise (as well as any joining [Minor
 
 A category name _must_ begin with an underscore (`_`), to rank higher alphabetically.
 
-- A category name may begin with an underscore and a bang (`_!`), to rank before any other category.
+- A category name may begin with an two underscores (`__`), to rank before any other category.
 
 Shortcuts to other files or folders in the same drive may be included.
 

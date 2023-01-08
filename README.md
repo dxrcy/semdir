@@ -68,25 +68,18 @@ File names for film:
 3. _Must_ include part or disc number, if relevant, after title and date, in curly braces (`{` and `}`)
    - This does **not** include films in a series or franchise, such as a sequel
    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
-4. _Must_ include the series (sequel) number, if relevant, after the title <!-- TODO Change format -->
+4. _Must_ include the series (sequel) number, if relevant, after the title
    - The subtitle _should_ be included, if relevant, after the series number
+       <!-- - Include leading zeros -->
    - No punctuation should be included between the series number and subtitle
    - _Eg._ `Hunger.Games,the[2012]`
      - This is accepted if it is the only film of the series that is in the directory
    - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
      - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
      - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
-   - The number can be written in _roman numerals_, if necessary, after the series number, separated by a dash (`-`)
-     - _Eg._ `Star.Wars.4-IV.A.New.Hope[1977]`
+   - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
+     - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
        <!-- - If the first in a film series using roman numerals -->
-
-<!--TODO
- - Change film series format
-   - `Movie.Name[2].The.Sequel[2008]
-   - `Movie.Name.-2-.The.Sequel[2008]
-   - `Movie.Name-2-The.Sequel[2008]
-   - `Movie.Name.2-The.Sequel[2008]
--->
 
 ## Series Folders
 

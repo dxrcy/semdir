@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.0** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.1** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 
@@ -47,6 +47,8 @@ All file and folder names:
      - `Kalina krasnaya` or `The Red Snowball Tree` (originally `Калина красная`)
 4. _Must **not**_ include properties such as resolution, download source, ect.
 5. _Should_ include `{aka}` before an alias of the title, if relevent
+6. _May_ remove any apostrophe marking abbreviation of a word
+   - _Eg._ `That.70s.Show` instead of `That.'70s.Show`
 
 ### File Extensions
 

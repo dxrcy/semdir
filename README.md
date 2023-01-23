@@ -37,9 +37,10 @@ All file and folder names:
 1. _Must_ capitalize the first letter of every major word
    - See [Minor Words](#minor-words) for exceptions
    - _Eg._ `The Hunger Games`
-2. _Must_ not contain spaces - Use periods instead
+2. _Must_ **not** contain spaces - Use periods instead
    - _Eg._ `The.Hunger.Games`
-3. _Must_ only contain ASCII characters
+3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'":()`
+   - Characters from the set `[]{}` having special meaning
    - Non-English text _should_ be transliterated or translated (either option is accepted)
    - _Eg._
      - `La Vita e Bella` or `Life Is Beautiful` (originally `La vita è bella`)
@@ -132,7 +133,7 @@ File names for a series episode:
 
 ## Categories
 
-Categories are folders which can include [films](#film-files) and [series](#series-folders), but not standalone (orphan) [Season Folders](#season-folders) or [Episode Files](#episode-files).
+Categories are folders which can include [films](#film-files) and [series](#series-folders), but **not** standalone (orphan) [Season Folders](#season-folders) or [Episode Files](#episode-files).
 
 Categories can contain any [film](#film-files) or [series](#series-folders) deemed to be related (subjective).
 

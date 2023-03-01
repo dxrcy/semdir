@@ -104,6 +104,10 @@ Folder names for a series:
 Folder names for a series season:
 
 1. _Must_ begin with `Season.`, followed by the season number
+   - Season number must begin with a zero `0`, if more than 9 seasons are present (Similar to [Episode Codes](#episode-code))
+   - _Eg._
+     - `Season.1[2009]`, if the latest season is `Season.9[2019]`
+     - `Season.01[2009]`, if the latest season is `Season.10[2020]`
 2. _Must_ include the date, after the season number, in square brackets
    - Date _must_ be year of first airing, unless year of last airing is 2 calendar years greater than first airing, where it _must_ include both, separated by a dash
    - Dates _must **not**_ be shortened

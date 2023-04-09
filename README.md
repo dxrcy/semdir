@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.2** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.3** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 
@@ -47,7 +47,9 @@ All file and folder names:
        - In this example, the first word is `La`, however it is not necessarily considered an [Initial Article](#initial-article), and might not necessarily be displaced
      - `Kalina krasnaya` or `The Red Snowball Tree` (originally `Калина красная`)
 4. _Must **not**_ include properties such as resolution, download source, ect.
-5. _Should_ include `{aka}` before an alias of the title, if relevent
+5. _Should_ include any miscellaneous information in curly braces, and capitalized if important
+   - _Eg._ `{INCOMPLETE}` for season of a show with episodes missing 
+   - _Eg._ `{aka}` before an alias of a title
 6. _May_ remove any apostrophe marking abbreviation of a word
    - _Eg._ `That.70s.Show` instead of `That.'70s.Show`
 
@@ -73,7 +75,6 @@ File names for film:
    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
 4. _Must_ include the series (sequel) number, if relevant, after the title
    - The subtitle _should_ be included, if relevant, after the series number
-       <!-- - Include leading zeros -->
    - No punctuation should be included between the series number and subtitle
    - _Eg._ `Hunger.Games,the[2012]`
      - This is accepted if it is the only film of the series that is in the directory
@@ -82,7 +83,7 @@ File names for film:
      - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
    - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
      - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
-       <!-- - If the first in a film series using roman numerals -->
+       <!--TODO - If the first in a film series using roman numerals -->
 
 ## Series Folders
 
@@ -109,13 +110,13 @@ Folder names for a series season:
      - `Season.1[2009]`, if the latest season is `Season.9[2019]`
      - `Season.01[2009]`, if the latest season is `Season.10[2020]`
 2. _Must_ include the date, after the season number, in square brackets
-   - Date _must_ be year of first airing, unless year of last airing is 2 calendar years greater than first airing, where it _must_ include both, separated by a dash
-   - Dates _must **not**_ be shortened
+   - Date _must_ be year of first airing, unless year of last airing is different from first airing, where it _must_ include both, separated by a dash
+   - Dates _must_ be shortened, unless airing occurred across two centuries
    - _Eg._
      - `Season.1[2009]` - Aired only in `2009`
-     - `Season.2[2010]` - Aired from `2010` to `2011` - 1 calendar year difference
-     - `Season.3[2012-2014]` - Aired from `2012` to `2014` - 2 calendar year difference
-       - **NOT** `Season.3[2012-14]`
+     - `Season.2[2010-11]` - Aired from `2010` to `2011`
+     - `Season.3[1999-2001]` - Aired from `1999` to `2001`
+       - **NOT** `Season.3[1999-01]`
 
 ### Episode Files
 

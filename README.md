@@ -75,7 +75,7 @@ File names for film:
    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
 4. _Must_ include the series (sequel) number, if relevant, after the title
    - The subtitle _should_ be included, if relevant, after the series number
-   - No punctuation should be included between the series number and subtitle
+   - No punctuation (other than the separating periods) should be included between the series number and subtitle
    - _Eg._ `Hunger.Games,the[2012]`
      - This is accepted if it is the only film of the series that is in the directory
    - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
@@ -83,7 +83,6 @@ File names for film:
      - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
    - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
      - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
-       <!--TODO - If the first in a film series using roman numerals -->
 
 ## Series Folders
 
@@ -154,6 +153,8 @@ Categories can be nested, but this is not recommended.
 
 - _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `Season.1[2002]`
 
+> _Note:_ Shortcuts to files may be used, but are not recommended, as they may not function properly on all devices
+
 # Episode Code
 
 Episode codes are unique numbers for an episode.
@@ -214,7 +215,7 @@ _Meta files_ are files that relate to the root directories contents, but are not
 
 These files _should_ be located in `~/.meta`, which may be hidden.
 
-- _Eg._ `~/.meta/tree.txt` contains a list of all files, in tree form.
+- _Eg._ `~/.meta/movies.txt` contains a list of all files, in tree form.
 - _Eg._ `~/.meta/semdir.md` is a duplicate of this file.
 
 ## Temporary Files

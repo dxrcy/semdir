@@ -111,12 +111,12 @@ Folder names for a series season:
      - `Season.01[2009]`, if the latest season is `Season.10[2020]`
 2. _Must_ include the date, after the season number, in square brackets
    - Date _must_ be year of first airing, unless year of last airing is different from first airing, where it _must_ include both, separated by a dash
-   - Dates _must_ be shortened, unless airing occurred across two centuries
+   - Date of last airing _must_ be shortened, **even if** airing occurred across two centuries
    - _Eg._
      - `Season.1[2009]` - Aired only in `2009`
      - `Season.2[2010-11]` - Aired from `2010` to `2011`
-     - `Season.3[1999-2001]` - Aired from `1999` to `2001`
-       - **NOT** `Season.3[1999-01]`
+     - `Season.3[1999-00]` - Aired from `1999` to `2000`
+       - **NOT** `Season.3[1999-2000]`
 
 ### Episode Files
 

@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.3** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.4** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 
@@ -16,8 +16,9 @@ _SemDir_ is a naming scheme that details how files and folders should be named, 
     - [Season Folders](#season-folders)
     - [Episode Files](#episode-files)
   - [Categories](#categories)
-- [Episode Code](#episode-code)
+- [Episode Codes](#episode-codes)
   - [Pilot Episodes](#pilot-episodes)
+  - [Specials Episodes](#specials-episodes)
 - [Minor Words](#minor-words)
   - [Initial Article](#initial-article)
 - [Other Folders](#other-folders)
@@ -39,7 +40,7 @@ All file and folder names:
    - _Eg._ `The Hunger Games`
 2. _Must_ **not** contain spaces - Use periods instead
    - _Eg._ `The.Hunger.Games`
-3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'":()`
+3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'"()`
    - Characters from the set `[]{}` having special meaning
    - Non-English text _should_ be transliterated or translated (either option is accepted)
    - _Eg._
@@ -104,7 +105,7 @@ Folder names for a series:
 Folder names for a series season:
 
 1. _Must_ begin with `Season.`, followed by the season number
-   - Season number must begin with a zero `0`, if more than 9 seasons are present (Similar to [Episode Codes](#episode-code))
+   - Season number must begin with a zero `0`, if more than 9 seasons are present (Similar to [Episode Codes](#episode-codes))
    - _Eg._
      - `Season.1[2009]`, if the latest season is `Season.9[2019]`
      - `Season.01[2009]`, if the latest season is `Season.10[2020]`
@@ -117,16 +118,18 @@ Folder names for a series season:
      - `Season.3[1999-00]` - Aired from `1999` to `2000`
        - **NOT** `Season.3[1999-2000]`
 
+
+
 ### Episode Files
 
-All Episode Files _must_ be located in the [Season Folder](#season-folders) corresponding to it's [Episode Code](#episode-code).
+All Episode Files _must_ be located in the [Season Folder](#season-folders) corresponding to it's [Episode Code](#episode-codes).
 This includes ['Pilot' episodes](#pilot-episodes).
 
 Miscellaneous files, such as Special Features, are counted as [Episode Files](#episode-files), but located in the Series Folder directly.
 
 File names for a series episode:
 
-1. _Must_ consist of: The series title, [Episode Code](#episode-code), and episode title, in that order, all separated by periods
+1. _Must_ consist of: The series title, [Episode Code](#episode-codes), and episode title, in that order, all separated by periods
    - _Eg._ `Modern.Family.S01E07.En.Garde`
 2. Series and episode titles _must **not**_ displace an [Initial Article](#initial-article), such as `the`
    - _Eg._ `The.Boys.S02E01.The.Big.Ride`
@@ -155,7 +158,7 @@ Categories can be nested, but this is not recommended.
 
 > _Note:_ Shortcuts to files may be used, but are not recommended, as they may not function properly on all devices
 
-# Episode Code
+# Episode Codes
 
 Episode codes are unique numbers for an episode.
 
@@ -180,9 +183,18 @@ All files in a folder _must_ use the same type of episode code.
 
 'Pilot' episodes _should_ be located:
 
-- In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-code): `S01E00` (or `S01E000`)
-- Or in the `Season.0` (Pilot season) folder, with [Episode Codes](#episode-code): `S00E01`, `S00E02`, ect. (or `S00Exxx`)
-- Or in the [Series Folder](#series-folders) directly, with [Episode Code](#episode-code): `E00` (or `E000`)
+- In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-codes): `S01E00` (or `S01E000`)
+- Or in the `Pilots` (Season 0) folder, with [Episode Codes](#episode-codes): `S00E01`, `S00E02`, ect. (or `S00Exxx`)
+- Or in the [Series Folder](#series-folders) directly, with [Episode Code](#episode-codes): `E00` (or `E000`)
+
+## Specials Episodes
+
+_'Specials' Episodes_ are episodes that are categorized as 'Specials'.
+
+They _should_:
+
+- Be located in the `Specials` folder of a [Series Folder](#series-folders).
+- Have [Episode Codes](#episode-codes): `SPECIALS-01`, `SPECIALS-02`, ect.
 
 # Minor Words
 

@@ -36,23 +36,23 @@ These rules apply to all types of file and folder.
 All file and folder names:
 
 1. _Must_ capitalize the first letter of every major word
-   - See [Minor Words](#minor-words) for exceptions
-   - _Eg._ `The Hunger Games`
+    - See [Minor Words](#minor-words) for exceptions
+    - _Eg._ `The Hunger Games`
 2. _Must_ **not** contain spaces - Use periods instead
-   - _Eg._ `The.Hunger.Games`
+    - _Eg._ `The.Hunger.Games`
 3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'"()`
-   - Characters from the set `[]{}` having special meaning
-   - Non-English text _should_ be transliterated or translated (either option is accepted)
-   - _Eg._
-     - `La Vita e Bella` or `Life Is Beautiful` (originally `La vita è bella`)
-       - In this example, the first word is `La`, however it is not necessarily considered an [Initial Article](#initial-article), and might not necessarily be displaced
-     - `Kalina krasnaya` or `The Red Snowball Tree` (originally `Калина красная`)
+    - Characters from the set `[]{}` having special meaning
+    - Non-English text _should_ be transliterated or translated (either option is accepted)
+    - _Eg._
+        - `La Vita e Bella` or `Life Is Beautiful` (originally `La vita è bella`)
+            - In this example, the first word is `La`, however it is not necessarily considered an [Initial Article](#initial-article), and might not necessarily be displaced
+        - `Kalina krasnaya` or `The Red Snowball Tree` (originally `Калина красная`)
 4. _Must **not**_ include properties such as resolution, download source, ect.
 5. _Should_ include any miscellaneous information in curly braces, and capitalized if important
-   - _Eg._ `{INCOMPLETE}` for season of a show with episodes missing 
-   - _Eg._ `{aka}` before an alias of a title
+    - _Eg._ `{INCOMPLETE}` for season of a show with episodes missing
+    - _Eg._ `{aka}` before an alias of a title
 6. _May_ remove any apostrophe marking abbreviation of a word
-   - _Eg._ `That.70s.Show` instead of `That.'70s.Show`
+    - _Eg._ `That.70s.Show` instead of `That.'70s.Show`
 
 ### File Extensions
 
@@ -65,25 +65,25 @@ Video files _should_ use any widely-accepted format, such as `.mp4`, `.avi`, or 
 File names for film:
 
 1. _Must **not**_ begin with an [Initial Article](#initial-article), such as `the`
-   - The article _must_ be appended, lowercase, to end of name, separated by comma
-   - _Eg._ `Hunger.Games,the`
-   - A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`
+    - The article _must_ be appended, lowercase, to end of name, separated by comma
+    - _Eg._ `Hunger.Games,the`
+    - A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`
 2. _Must_ include the date, after the title, in square brackets
-   - Date _must **not**_ be shortened
-   - _Eg._ `Hunger.Games,the[2012]`
+    - Date _must **not**_ be shortened
+    - _Eg._ `Hunger.Games,the[2012]`
 3. _Must_ include part or disc number, if relevant, after title and date, in curly braces (`{` and `}`)
-   - This does **not** include films in a series or franchise, such as a sequel
-   - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
+    - This does **not** include films in a series or franchise, such as a sequel
+    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
 4. _Must_ include the series (sequel) number, if relevant, after the title
-   - The subtitle _should_ be included, if relevant, after the series number
-   - No punctuation (other than the separating periods) should be included between the series number and subtitle
-   - _Eg._ `Hunger.Games,the[2012]`
-     - This is accepted if it is the only film of the series that is in the directory
-   - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
-     - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
-     - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
-   - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
-     - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
+    - The subtitle _should_ be included, if relevant, after the series number
+    - No punctuation (other than the separating periods) should be included between the series number and subtitle
+    - _Eg._ `Hunger.Games,the[2012]`
+        - This is accepted if it is the only film of the series that is in the directory
+    - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
+        - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
+        - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
+    - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
+        - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
 
 ## Series Folders
 
@@ -96,29 +96,24 @@ Series folders _must **not**_ include the date, as that is included in each [Sea
 Folder names for a series:
 
 1. _Must **not**_ begin with an [Initial Article](#initial-article), such as `the`
-   - Append, lowercase, to end of name, separated by comma
-   - _Eg._ `Boys,the`
-   - A period _must **not**_ follow the final comma, such as `Boys,.the`
+    - Append, lowercase, to end of name, separated by comma
+    - _Eg._ `Boys,the`
+    - A period _must **not**_ follow the final comma, such as `Boys,.the`
 
 ### Season Folders
 
 Folder names for a series season:
 
-1. _Must_ begin with `Season.`, followed by the season number
-   - Season number must begin with a zero `0`, if more than 9 seasons are present (Similar to [Episode Codes](#episode-codes))
-   - _Eg._
-     - `Season.1[2009]`, if the latest season is `Season.9[2019]`
-     - `Season.01[2009]`, if the latest season is `Season.10[2020]`
+1. _Must_ begin with `S` for 'Season', followed by the season number
+    - _Eg._ `S01[2009]`
 2. _Must_ include the date, after the season number, in square brackets
-   - Date _must_ be year of first airing, unless year of last airing is different from first airing, where it _must_ include both, separated by a dash
-   - Date of last airing _must_ be shortened, **even if** airing occurred across two centuries
-   - _Eg._
-     - `Season.1[2009]` - Aired only in `2009`
-     - `Season.2[2010-11]` - Aired from `2010` to `2011`
-     - `Season.3[1999-00]` - Aired from `1999` to `2000`
-       - **NOT** `Season.3[1999-2000]`
-
-
+    - Date _must_ be year of first airing, unless year of last airing is different from first airing, where it _must_ include both, separated by a dash
+    - Date of last airing _must_ be shortened, **even if** airing occurred across two centuries
+    - _Eg._
+        - `S01[2009]` - Aired only in `2009`
+        - `S02[2010-11]` - Aired from `2010` to `2011`
+        - `S03[1999-00]` - Aired from `1999` to `2000`
+            - **NOT** `S03[1999-2000]`
 
 ### Episode Files
 
@@ -130,13 +125,13 @@ Miscellaneous files, such as Special Features, are counted as [Episode Files](#e
 File names for a series episode:
 
 1. _Must_ consist of: The series title, [Episode Code](#episode-codes), and episode title, in that order, all separated by periods
-   - _Eg._ `Modern.Family.S01E07.En.Garde`
+    - _Eg._ `Modern.Family.S01E07.En.Garde`
 2. Series and episode titles _must **not**_ displace an [Initial Article](#initial-article), such as `the`
-   - _Eg._ `The.Boys.S02E01.The.Big.Ride`
-   - This is different from [series](#series-folders) and [films](#film-files)
+    - _Eg._ `The.Boys.S02E01.The.Big.Ride`
+    - This is different from [series](#series-folders) and [films](#film-files)
 3. _Must_ include part or disc number, if relevant, after title, in curly braces (`{` and `}`)
-   - Episodes might not necessarily have the same title
-   - _Eg._ `Adventure.Time.S02E24.Mortal.Folly{1}` and `Adventure.Time.S02E24.Mortal.Recoil{2}`, for parts 1 and 2 of a 2-episode plot
+    - Episodes might not necessarily have the same title
+    - _Eg._ `Adventure.Time.S02E24.Mortal.Folly{1}` and `Adventure.Time.S02E24.Mortal.Recoil{2}`, for parts 1 and 2 of a 2-episode plot
 
 ## Categories
 
@@ -148,13 +143,13 @@ For franchise categories, the name of a franchise (as well as any joining [Minor
 
 A category name _must_ begin with an underscore (`_`), to rank higher alphabetically.
 
-- A category name may begin with an two underscores (`__`), to rank before any other category.
+-   A category name may begin with an two underscores (`__`), to rank before any other category.
 
 Shortcuts to other files or folders in the same drive may be included.
 
 Categories can be nested, but this is not recommended.
 
-- _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `Season.1[2002]`
+-   _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `S01[2002]`
 
 > _Note:_ Shortcuts to files may be used, but are not recommended, as they may not function properly on all devices
 
@@ -183,9 +178,9 @@ All files in a folder _must_ use the same type of episode code.
 
 'Pilot' episodes _should_ be located:
 
-- In the `Season.1` folder, if there is only 1 Pilot, with [Episode Code](#episode-codes): `S01E00` (or `S01E000`)
-- Or in the `Pilots` (Season 0) folder, with [Episode Codes](#episode-codes): `S00E01`, `S00E02`, ect. (or `S00Exxx`)
-- Or in the [Series Folder](#series-folders) directly, with [Episode Code](#episode-codes): `E00` (or `E000`)
+-   In the `S01` folder, if there is only 1 Pilot, with [Episode Code](#episode-codes): `S01E00` (or `S01E000`)
+-   Or in the `Pilots` (Season 0) folder, with [Episode Codes](#episode-codes): `S00E01`, `S00E02`, ect. (or `S00Exxx`)
+-   Or in the [Series Folder](#series-folders) directly, with [Episode Code](#episode-codes): `E00` (or `E000`)
 
 ## Specials Episodes
 
@@ -193,19 +188,19 @@ _'Specials' Episodes_ are episodes that are categorized as 'Specials'.
 
 They _should_:
 
-- Be located in the `Specials` folder of a [Series Folder](#series-folders).
-- Have [Episode Codes](#episode-codes): `SPECIALS-01`, `SPECIALS-02`, ect.
+-   Be located in the `Specials` folder of a [Series Folder](#series-folders).
+-   Have [Episode Codes](#episode-codes): `SPECIALS-01`, `SPECIALS-02`, ect.
 
 # Minor Words
 
 Minor words are words that _must_ be lowercase in a film, series, or episode title, unless the first word in a title.
 
-- _Eg._ `Scooby.Doo.and.the.Witch's.Ghost[1999]`
+-   _Eg._ `Scooby.Doo.and.the.Witch's.Ghost[1999]`
 
 This includes prepositions, conjunctions, and articles.
 A minor word _should_ be no longer than 4 letters.
 
-- _Eg._ '_the_', '_a_', '_and_', '_or_', '_for_', '_of_', '_from_', '_to_', ect.
+-   _Eg._ '_the_', '_a_', '_and_', '_or_', '_for_', '_of_', '_from_', '_to_', ect.
 
 Classification is case-by-case.
 
@@ -215,7 +210,7 @@ Initial articles are the words `the` and `a` at the beginning of an original tit
 
 The article _must_ be appended, lowercase, to end of name, separated by comma, when required.
 
-- _Eg._ `Hunger.Games,the`
+-   _Eg._ `Hunger.Games,the`
 
 A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`.
 
@@ -227,8 +222,8 @@ _Meta files_ are files that relate to the root directories contents, but are not
 
 These files _should_ be located in `~/.meta`, which may be hidden.
 
-- _Eg._ `~/.meta/movies.txt` contains a list of all files, in tree form.
-- _Eg._ `~/.meta/semdir.md` is a duplicate of this file.
+-   _Eg._ `~/.meta/movies.txt` contains a list of all files, in tree form.
+-   _Eg._ `~/.meta/semdir.md` is a duplicate of this file.
 
 ## Temporary Files
 
@@ -238,4 +233,4 @@ These files _should_ be located in `~/.temp`, which may be hidden.
 
 Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 
-- _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.
+-   _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.

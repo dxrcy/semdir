@@ -130,8 +130,8 @@ File names for a series episode:
     - _Eg._ `The.Boys.S02E01.The.Big.Ride`
     - This is different from [series](#series-folders) and [films](#film-files)
 3. _Must_ include part or disc number, if relevant, after title, in curly braces (`{` and `}`)
-    - Episodes might not necessarily have the same title
-    - _Eg._ `Adventure.Time.S02E24.Mortal.Folly{1}` and `Adventure.Time.S02E24.Mortal.Recoil{2}`, for parts 1 and 2 of a 2-episode plot
+    - This does **not** include separate episodes (even with the same name), released separately
+    - _Eg._ `Hunger.Games,the[2012]{1}` and `Hunger.Games,the[2012]{2}`, for discs 1 and 2
 
 ## Categories
 

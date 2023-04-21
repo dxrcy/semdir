@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.4** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.5** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 
@@ -48,9 +48,10 @@ All file and folder names:
             - In this example, the first word is `La`, however it is not necessarily considered an [Initial Article](#initial-article), and might not necessarily be displaced
         - `Kalina krasnaya` or `The Red Snowball Tree` (originally `Калина красная`)
 4. _Must **not**_ include properties such as resolution, download source, ect.
-5. _Should_ include any miscellaneous information in curly braces, and capitalized if important
+5. _Should_ include any miscellaneous information in curly braces (`{` and `}`), and capitalized if important
     - _Eg._ `{INCOMPLETE}` for season of a show with episodes missing
     - _Eg._ `{aka}` before an alias of a title
+    - Note that curly braces _must_ only be used for file details, not for sematic meaning
 6. _May_ remove any apostrophe marking abbreviation of a word
     - _Eg._ `That.70s.Show` instead of `That.'70s.Show`
 

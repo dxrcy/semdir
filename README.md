@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.5** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.6** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 
@@ -41,8 +41,9 @@ All file and folder names:
 2. _Must_ **not** contain spaces - Use periods instead
     - _Eg._ `The.Hunger.Games`
 3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'"()`
-    - Characters from the set `[]{}` having special meaning
-    - Non-English text _should_ be transliterated or translated (either option is accepted)
+    - Characters from the set `[]{}` having special meaning in this spec
+    - Characters such as `&`, `|`, and `;` have special meaning in file paths
+    - Non-English text (non-ASCII) _should_ be transliterated or translated (either option is accepted)
     - _Eg._
         - `La Vita e Bella` or `Life Is Beautiful` (originally `La vita è bella`)
             - In this example, the first word is `La`, however it is not necessarily considered an [Initial Article](#initial-article), and might not necessarily be displaced

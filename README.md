@@ -84,8 +84,7 @@ File names for film:
     - _Eg._ `Hunger.Games,the.1[2012]` and `Hunger.Games,the.2.Catching.Fire[2013]`
         - For two films in the series. Note that the `.1` is included in the first name, as would the subtitle, if relevant
         - **NOT** `Hunger.Games,the.2.-.Catching.Fire[2013]` or `Hunger.Games,the.Catching.Fire[2013]`
-    - The number can be written in _roman numerals_, if necessary, after the series number, surrounded by round brackets (`(` and `)`)
-        - _Eg._ `Star.Wars.4(IV).A.New.Hope[1977]`
+    - The number should never be written in Roman Numberals.
 
 ## Series Folders
 

@@ -2,7 +2,7 @@
 
 _SemDir_ is a naming scheme that details how files and folders should be named, for a drive or directory containing films, series, or other video media.
 
-**Version 0.1.6** | [Latest Version](https://github.com/darccyy/semdir#semantic-directory-naming-scheme-semdir)
+**Version 0.1.6** | [Latest Version](https://github.com/dxrcy/semdir#semantic-directory-naming-scheme-semdir)
 
 # Contents
 

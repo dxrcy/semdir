@@ -40,7 +40,8 @@ All file and folder names:
     - _Eg._ `The Hunger Games`
 2. _Must_ **not** contain spaces - Use periods instead
     - _Eg._ `The.Hunger.Games`
-3. _Must_ only contain the characters from the set `a-zA-Z0-9.,!'"()`
+3. _Must_ only contain the characters from the set `a-zA-Z0-9.-_()`, and start with `a-zA-Z0-9_`
+    - Regex: `^[a-zA-Z0-9\-_][a-zA-Z0-9\-_.()]*$]`
     - Characters from the set `[]{}` having special meaning in this spec
     - Characters such as `&`, `|`, and `;` have special meaning in file paths
     - Non-English text (non-ASCII) _should_ be transliterated or translated (either option is accepted)

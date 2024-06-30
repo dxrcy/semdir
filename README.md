@@ -27,7 +27,7 @@ _SemDir_ is a naming scheme that details how files and folders should be named, 
 
 # File and Folder Types
 
-> _Note:_ in this file, paths starting with `~/` are located in the root directory, in which this scheme is enforced.
+> _Note:_ in this file, paths starting with `/` are located in the root directory, in which this scheme is enforced.
 
 ## All Files and Folders
 
@@ -151,7 +151,7 @@ Shortcuts to other files or folders in the same drive may be included.
 
 Categories can be nested, but this is not recommended.
 
--   _Eg._ `~/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `S01[2002]`
+-   _Eg._ `/_Scooby.Doo` - Contains the films `Zombie.Island[1998]` and `Witch's.Ghost[1999]`, and series `What's.New`, with an episode named `What's.New.S01E04.Big.Scare.in.the.Big.Easy` in `S01[2002]`
 
 > _Note:_ Shortcuts to files may be used, but are not recommended, as they may not function properly on all devices
 
@@ -222,17 +222,17 @@ A period _must **not**_ follow the final comma, such as `Hunger.Games,.the`.
 
 _Meta files_ are files that relate to the root directories contents, but are not intended for user interaction.
 
-These files _should_ be located in `~/.meta`, which may be hidden.
+These files _should_ be located in `/.meta`, which may be hidden.
 
--   _Eg._ `~/.meta/movies.txt` contains a list of all files, in tree form.
--   _Eg._ `~/.meta/semdir.md` is a duplicate of this file.
+-   _Eg._ `/.meta/movies.txt` contains a list of all files, in tree form.
+-   _Eg._ `/.meta/semdir.md` is a duplicate of this file.
 
 ## Temporary Files
 
 _Temporary files_ are files or folders that are temporary. This includes current downloads, or redundant folders that will be removed.
 
-These files _should_ be located in `~/.temp`, which may be hidden.
+These files _should_ be located in `/.temp`, which may be hidden.
 
 Temporary files _should_ be surrounded by curly braces (`{` and `}`)
 
--   _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `~/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `~/` when the download has finished, and the folder will be deleted.
+-   _Eg._ A folder named `{Hunger.Games,the[2012]}`, in the directory `/.temp`, which contains `Hunger.Games,the[2012].mp4`. The video file will be moved into `/` when the download has finished, and the folder will be deleted.
